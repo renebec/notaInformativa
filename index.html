@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cbta205</title>
+    <link             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+    <script>
+        function updateDateTime() {
+            // Get the current date and time in Central Mexico
+            let options = {
+                timeZone: "America/Mexico_City",
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+                hour: "2-digit",
+                minute: "2-digit",
+                second: "2-digit",
+                hour12: true
+            };
+
+            let currentDateTime = new Date().toLocaleString("es-MX", options);
+
+            // Format the date and time as "9 de abril de 2025, 09:40:00"
+            const dateTimeElement = document.getElementById('date-time');
+            if (dateTimeElement) {
+                dateTimeElement.innerHTML = currentDateTime;
+            }
+        }
+
+        // Update the time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to set the time immediately
+        updateDateTime();
+    </script>
+    <style>
+
+        #btnCerrar {
+
+            position: sticky;
+            top:0;
+            margin-top:0px;
+            margin-left:75%;
+            z-index: 1000;
+        }
+
+        #banner {
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            width:100%;
+            height: 240px;
+            object-fit:cover;
+        }
+        body {
+
+            margin-left: auto;
+            margin-right: auto;
+            text-align:justify;
+        }
+
+        .partial-footer-total {
+            color:#AA99e1;
+            font-size:14px;
+        }
+
+        .navtxt{
+            color:rgb(100,100,100);
+        }
+
+        .btn-sm {
+            width:100px;
+        }
+
+        .noexist {
+
+        }
+        .container{
+            margin-left:auto;
+            margin-right:auto;
+            text-align:justify;
+        }
+        .apertura{
+            padding:10px;
+            background-color:rgba(50, 250, 37, 0.25);
+        }
+        .desarrollo{
+            padding:10px;
+            background-color:rgba(247, 234, 47, 0.3);
+        }
+
+        .cierre{
+            padding:10px;
+            background-color:rgba(250, 117, 221, 0.25);
+            color:#B51767;
+        }
+
+
+
+
+    </style>
+</head>
+
+
+
+
+
+        <img class="mt-5" id="banner" src= "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczVjMG5xeXByZnAydHNsdWRuejBvdGltMms2aWkzdWg3czc1bm1nMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zqtOYPQZ8Kb5pMlH8p/giphy.gif">
+
+
+
+    <div style="text-align:left;padding-left:20px;">
+        <text style="font-size:11px;color:#04AA6D;" id="date-time"></text>&nbsp;
+        <text style="font-size:11px;color:#04AA6D;">, </text>
+        <text style="font-size:11px;color:#04AA6D;" id="time"></text>
+    </div>
+
+<body>
+<main class="container col-12 col-md-9">
+	<H2>Asunto: Nota informativa</H2> 
+	<br>
+	
+	Con respecto a la oferta educativa del CBTA 330, misma que considera la carrera 
+	<i>Técnico en Formación Agrícola (programa 2013)</i>, al respecto informo lo siguiente: 
+	<br><br>
+	
+	Se realizó un análisis del potencial y pertinencia de la <i>Carrera de Técnico en Producción Agrícola</i> desde
+	el contexto del CBTA 330 y su entorno social, productivo y ambiental. Se sugiere cambiar dicha opción y, adoptar
+	en su lugar	la carrera de <i>Técnico en Agricultura Sustentable (programa 2017)</i>. Lo anterior debido a varios aspectos que
+	a continuación describo con detalle.
+	<br><br>
+	
+	<h3>Justificación del cambio</h3>
+	Se trata de un plantel de nueva creación con recursos e infraestructura limitada. Para cubrir a cabalidad el
+	programa de la carrera de <i>Técnico en Producción Agrícola</i> se requieren mínimamente recursos como:
+	<br><br>
+	
+	<ul>
+		<li>Suelo: se requiere de una superficie de terreno para la producción agrícola: cultivos, pastos y forrajes. 
+		En los requisitos de DGETA se contemplaba al menos 5 hectáreas.</li>
+		<li>Agua: se requiere de un pozo o fuente de riego para cubrir submódulos que
+		contenmplan la instalación y uso de sistemas de riego.</li>
+		<li>Laboratorios: se requiere de un laboratorio para análisis físico, químico y microbiológico de suelo y 
+		agua.</li>
+		<li>Equipamiento: se requiere equipo para los análisis de suelo y agua. De isgual manera se requiere
+		maquinaria agrícola e implementos para cubrir el programa.</li>
+	</ul>
+	<br><br>
+	
+	En general, la carrera de <i>Técnico en Producción Agrícola</i> no abarca las opciones formativas que demanda la
+	zona de Texcoco y, por otro lado resulta una opción muy cara para un plantel de nueva creación debido la falta de 
+	infraestructura y equipamiento especializado. Este escenario complicaría el desarrollo de actividadades para el logro
+	de aprendizajes y obtener además las evidencias de aprendizaje que desmuestren el avance de dicho programa.
+	<br><br>
+	
+	En cambio, la opción de adoptar la carrera de <i>Técnico en Agricultura Sustentable</i> es una opción más pertinente para el
+	contexto del plantel ya que, sigue siendo una opción que contempla la producción agrícola pero que puede puede abarcar desde
+	la pequeña y hasta la mediana escala, lo que permitiría cumplir con los objetivos y las evidencias de aprendizaje mientras que permite
+	la escala gradual y paulatina de las tecnologías agrícolas implementadas de acuerdo a las posibilidades del plantel. Por último,
+	esta opción profesional contempla la formación en el uso de equipo topográfico, Sistemas de Información Geográfica y
+	la planeación territorial aplicable en agricultura, ganadería y actividades forestales. Lo anterior deja de
+	manifiesto que se trata de una carrera más completa y actualizada (2017) que brinda más herramientas formativas
+	a los futuros egresados del CBTA 330.
+	<br><br>
+	
+	Dentro de la visión formativa de la carrera <i>Técnico en Agricultura Sustentable</i> destacan los
+	siguientes puntos:
+	<br><br>
+	
+	<ul>
+		<li>Producción <b>agrícola</b> sustentable (producción de semilla, granos, hortalizas, frutales, etc).</li>
+		<li>Producción <b>forestal</b> sustentable.</li>
+		<li>Producción <b>agroforestal</b>.</li>
+		<li>Reforestación y <b>restauración</b> de ecosistemas.</li>
+		<li>Obras de <b>conservación</b> de suelo y agua.</li>
+		<li>Uso de equipo <b>topográfico y de geoposicionamiento</b>.</li>
+		<li>Manejo de Sistemas de Información Geográfica (<b>SIG</b>).</li>
+		<li>Diagnóstico de <b>agroecosistemas</b>.</li>
+		<li><b>Plan de manejo</b> sustentable de agroecosistemas.</li>
+	</ul>
+	<br><br>
+	
+	La opción que aquí se plantea representa una opción formativa petinente a las condiciones del CBTA 330 y de su contexto. Además,
+	es una carrera mejor alineada a los objetivos de Desarrollo Sustentable así como al Plan Nacional de Desarrollo Vigente. 
+	En el mediano plazo podrían analizarse las posibilidades y condiciones del plantel para considerar la carrera de 
+	<b>Técnico Agropecuario (programa 2024)</b> como una opción de mayor tecnificación que se vincula mejor
+	a los planteamientos de la Nueva Escuela Mexicana.
+	
+	
+</main>
+
+<br><br><br><br><br>
+</body>
+
+</html>
